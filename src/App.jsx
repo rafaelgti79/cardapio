@@ -81,25 +81,32 @@ function App() {
   </div>
 </div>
 
-      <div className='containerSub'>
-       <h1 className='tituloCard'>FRANGO</h1>
-       <h2 className='lista'>FRNAGO GRELHADO ..................................... R$ 30,00</h2>
-       <h2 className='lista'>FRANGO A PARMEGIANA ................................. R$ 30,00</h2>
-       <h2 className='lista'>FRANGO A MILANESA ................................... R$ 30,00</h2>
-       <h2 className='lista'>FRANGO GRELHADO COM LEGUMES ......................... R$ 30,00</h2>
-       <h2 className='lista'>perna de ganço ...................................... R$ 30,00</h2>
-      </div>
-
-      <div className='containerSub'>
-       <h1 className='tituloCard'>CARNE SUINA</h1>
-       <h2 className='lista'>CARRE A MINEIRA ..................................... R$ 30,00</h2>
-       <h2 className='lista'>CARRE FRITO ......................................... R$ 30,00</h2>
-       <h2 className='lista'>VIRADINHO A PAULISTA  ............................... R$ 30,00</h2>
-       
-      </div>
-
-        
       
+      <div className="containerSub">
+  <h1 className="tituloCard">CARNE SUINA</h1>
+
+  <div className="item">
+    <span className="nome">CARRE A MINEIRA</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CARRE FRITO</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">VIRADINHO A PAULISTA</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  </div>
+      
+  
+     
     </div>
   </div>
   )
