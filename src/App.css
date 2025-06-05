@@ -1,12 +1,11 @@
 
 body {
   background-color: black;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .container {
-  width: 100%;
+
 position: absolute;
 top: 1px; /* distância do topo da página */
 left: 50%;
@@ -23,6 +22,8 @@ color: darkgoldenrod;
 
 .containerSub{
 width: 100%;
+padding: 20px;
+font-family: sans-serif;
 margin-top: 30px;
 left: 20%;
 right: 20%;
@@ -32,11 +33,33 @@ color: antiquewhite;
 }
 
 .tituloCard{
+  font-weight: bold;
+  margin-bottom: 20px;
   margin-top: -20px;
   text-align: center;
   font-size: 30px;
-  margin-bottom: -20px;
+  
 }
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted #ccc;
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.nome {
+  flex: 1;
+  text-align: left;
+}
+
+.preco {
+  text-align: right;
+  white-space: nowrap;
+}
+
 .lista {
   text-align: center;
   font-size: 25px;

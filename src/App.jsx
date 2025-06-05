@@ -12,14 +12,74 @@ function App() {
         <div className="linha-customizada"></div>
         </div>
 
-      <div className='containerSub'>
-       <h1 className='tituloCard'>CARNES</h1>
-       <h2 className='lista'>CONTRA FILE A BRASILEIRA ............................ R$ 30,00</h2>
-       <h2 className='lista'>CONTRA FILE A CAVALO ................................... R$ 30,00</h2>
-       <h2 className='lista'>CONTRA FILE COM LEGUMES .......................... R$ 30,00</h2>
-       <h2 className='lista'>CHURRASCO MISTO .................................................... R$ 30,00</h2>
-       <h2 className='lista'>CONTRA FÍLE COM ARROZ E BROCOLIS ............... R$ 30,00</h2>
-      </div>
+      <div className="containerSub">
+  <h1 className="tituloCard">CARNES</h1>
+
+  <div className="item">
+    <span className="nome">CONTRA FILE A BRASILEIRA</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CONTRA FILE A CAVALO</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CONTRA FILE COM LEGUMES</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CHURRASCO MISTO</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CONTRA FÍLE COM ARROZ E BRÓCOLIS</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+</div>
+
+
+<div className="containerSub">
+  <h1 className="tituloCard">FRANGO</h1>
+
+  <div className="item">
+    <span className="nome">FRNAGO GRELHADO</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">CONTRA FILE A CAVALO</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">FRANGO A PARMEGIANA</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">FRANGO A MILANESA</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+
+  <div className="item">
+    <span className="nome">FRANGO GRELHADO COM LEGUMES</span>
+    <span className="pontinhos"></span>
+    <span className="preco">R$ 30,00</span>
+  </div>
+</div>
 
       <div className='containerSub'>
        <h1 className='tituloCard'>FRANGO</h1>
