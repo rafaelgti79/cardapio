@@ -1,0 +1,49 @@
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+position: absolute;
+top: 1px; /* distância do topo da página */
+left: 50%;
+transform: translateX(-50%);
+color: darkgoldenrod;
+}
+
+
+.linha-customizada {
+  border-top: 2px solid antiquewhite;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.containerSub{
+width: 100%;
+margin-top: 30px;
+left: 20%;
+right: 20%;
+margin-bottom: 20px;
+text-align: center;
+color: antiquewhite;
+}
+
+.tituloCard{
+  margin-top: -20px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+.lista {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -20px;
+}
+
+.titulo {
+   font-size: 10px;
+   text-align: center;
+}
