@@ -79,7 +79,7 @@ color: antiquewhite;
   }
 
   .item {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: flex-start;
     font-size: 16px;
     padding: 8px 50;
