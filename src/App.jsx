@@ -8,7 +8,7 @@ function App() {
   <div className='container'>
       
   <div className='titulo'>
-  <h1>BAR E RESTRAURANDE DO KLEBER</h1>
+  <h1>BAR E RESTRAURANDE DO KLEBER 1</h1>
   </div>
 
 <div className="containerSub">
