@@ -9,7 +9,7 @@ body {
 
 .container {
 position: absolute;
-width: 50vh;
+width: 45vh;
 top: 1px; /* distância do topo da página */
 left: 50%;
 transform: translateX(-50%);
