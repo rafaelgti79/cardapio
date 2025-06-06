@@ -70,9 +70,8 @@ color: antiquewhite;
 }
 
 /* === Responsividade para telas menores === */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .containerSub {
-    width: 50px;
     padding: 8px;
   }
 
