@@ -1,24 +1,26 @@
 
 body {
-  background-color: black;
+ 
    /* garante que cobre a tela toda */
   margin: 0;
   padding: 0;
+  
 }
 
 .container {
 position: absolute;
-width: 70vh;
+width: 100vh;
 top: 1px; /* distância do topo da página */
 left: 50%;
 transform: translateX(-50%);
 color: darkgoldenrod;
+background-color: black;
 
 }
 
 
 .containerSub{
-width: 30%;
+
 padding: 10px;
 font-family: sans-serif;
 margin-top: 30px;
