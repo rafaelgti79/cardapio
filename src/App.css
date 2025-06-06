@@ -2,6 +2,7 @@
 body {
  
    /* garante que cobre a tela toda */
+   width: 60vh;
   margin: 0;
   padding: 0;
   
