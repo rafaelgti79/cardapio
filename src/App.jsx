@@ -5,14 +5,13 @@ function App() {
  
 
   return (
-    <div className='container'>
-      <div>
-        <div className='titulo'>
-        <h1>TESTE PARA PAGINA</h1>
-        <div className="linha-customizada"></div>
-        </div>
+  <div className='container'>
+      
+  <div className='titulo'>
+  <h1>BAR E RESTRAURANDE DO KLEBER</h1>
+  </div>
 
-      <div className="containerSub">
+<div className="containerSub">
   <h1 className="tituloCard">CARNES</h1>
 
   <div className="item">
@@ -82,7 +81,7 @@ function App() {
 </div>
 
       
-      <div className="containerSub">
+<div className="containerSub">
   <h1 className="tituloCard">CARNE SUINA</h1>
 
   <div className="item">
@@ -103,15 +102,11 @@ function App() {
     <span className="preco">R$ 30,00</span>
   </div>
 
-  </div>
+</div>
       
-  
-     
-    </div>
-  </div>
+</div>
   )
 }
-
 export default App
      
       

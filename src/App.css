@@ -1,28 +1,24 @@
 
 body {
   background-color: black;
-  
+   /* garante que cobre a tela toda */
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-
 position: absolute;
 top: 1px; /* distância do topo da página */
 left: 50%;
 transform: translateX(-50%);
 color: darkgoldenrod;
+
 }
 
-
-.linha-customizada {
-  border-top: 2px solid antiquewhite;
-  width: 100%;
-  margin-top: 10px;
-}
 
 .containerSub{
 width: 100%;
-padding: 20px;
+padding: 10px;
 font-family: sans-serif;
 margin-top: 30px;
 left: 20%;
@@ -30,6 +26,7 @@ right: 20%;
 margin-bottom: 20px;
 text-align: center;
 color: antiquewhite;
+
 }
 
 .tituloCard{
@@ -46,7 +43,7 @@ color: antiquewhite;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px dotted #ccc;
-  padding: 8px 0;
+  padding: 8px 50;
   font-size: 18px;
 }
 
@@ -69,4 +66,30 @@ color: antiquewhite;
 .titulo {
    font-size: 10px;
    text-align: center;
+}
+
+/* === Responsividade para telas menores === */
+@media (max-width: 600px) {
+  .containerSub {
+    padding: 8px;
+  }
+
+  .tituloCard {
+    font-size: 24px;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+
+  .nome, .preco {
+    text-align: left;
+    width: 100%;
+  }
+
+  .lista {
+    font-size: 20px;
+  }
 }
